@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* banner part */
+
+.banner {
+    position: relative;
+    background-image: url(/assests/images/enhance-background\ 1.png);
+    color: #fff;
+    height: fit-content;
+    width: 100%;
+}
+
+.banner .nav {
+    margin: 0 auto;
+    padding-top: 103px;
+    max-width: 1268px;
+    width: 100%;
+}
+
+.banner .nav>* {
+    display: inline-block;
+}
+
+.banner .logo {
+    height: 100%;
+    margin-top: 10px;
+}
+
+.banner .menu {
+    float: right;
+}
+
+.banner .menu ul {
+    font-size: 24px;
+    display: inline-block;
+    background-color: #00ACEC;
+    margin-left: 40px;
+}
+
+.banner .menu ul li {
+    padding: 16px 30px;
+    list-style: none;
+    display: inline-block;
+}
+
+.banner .menu a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 0 5px;
+}
+
+.banner .menu ul li:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.banner .menu ul li:hover a {
+    color: #000;
+}
+
+.banner .main {
+    position: relative;
+    padding: 178px 30px 0 30px;
+}
+
+.banner .main .wrapper {
+    max-width: 1268px;
+    margin: 0 auto;
+}
+
+.banner .main .wrapper .heading {
+    float: left;
+}
+
+.banner .main h2 {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.banner .main p {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.banner .wrapper .center-image {
+    /* position: absolute;
+    bottom: 0px;
+    right: 15%; */
+    float: right;
+}
+
+.banner .left-arrow {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner .right-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner .eclipse {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+
+/* ABOUT PART */
+
+.about {
+    background-color: #fff;
+    margin: 90px auto;
+    max-width: 1268px;
+}
+
+.about .left-img {
+    padding-top: 60px;
+    float: left;
+}
+
+.about .right {
+    float: right;
+    width: 55%;
+}
+
+.about .right h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.about .right h3 {
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.66);
+    padding-bottom: 28px;
+}
+
+.about .right p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 28px;
+}
+
+.about .right span {
+    color: #00ACEC;
+}
+
+.about .read_more {
+    color: white;
+    background-color: #00ACEC;
+    width: 300px;
+    height: 60px;
+    border: none;
+}
+
+.about .read_more a {
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*  testimonial part */
+
+.testimonials {
+    background-color: #00ACEC;
+}
+
+.testimonials .content {
+    margin: 90px auto 0 auto;
+    max-width: 1268px;
+    padding: 50px 0;
+    background-color: #00ACEC;
+}
+
+.testimonials .content h2 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.testimonials .content h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.testimonials .content .box-container {
+    padding-top: 60px;
+    width: 100%;
+    margin-right: 0;
+    height: fit-content;
+}
+
+.testimonials .content .box-container .box {
+    position: relative;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.66);
+    background-color: #fff;
+    width: 33%;
+    display: inline-block;
+    min-height: 250px;
+}
+
+.testimonials .content .box-container .box p {
+    padding: 10px;
+}
+
+.testimonials .content .box-container .box .paragraph {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.testimonials .content .box-container .box span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+
+/*  footer section */
+
+.footer {
+    position: relative;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.footer h3 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.footer .container {
+    margin: auto;
+    max-width: 1268px;
+    padding: 100px 0;
+    height: fit-content;
+}
+
+.footer .container .contact {
+    float: left;
+}
+
+.footer .container .contact .contact-form input {
+    display: block;
+    background: #C4C4C4;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.footer .container .contact .contact-form .message {
+    display: block;
+    background: #C4C4C4;
+    padding: 40px 130px 40px 0px;
+}
+
+.footer .container .contact .contact-form>* {
+    padding-top: 40px;
+    margin: 10px 10px 10px 0;
+}
+
+.footer .container .contact .contact-form .button {
+    background: #333333;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.footer .container .sitemap {
+    float: left;
+    width: 30%;
+}
+
+.footer .container .sitemap ul {
+    list-style: none;
+}
+
+.footer .container .sitemap ul li ::before {
+    content: "•";
+    font-size: 100%;
+    padding-right: 20px;
+}
+
+.footer .container .sitemap ul li a {
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.footer .container .contact_info {
+    /* margin: auto;
+     float: left; 
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    transform: translate(80% 55%); */
+    float: right;
+}
+
+.footer .container .title {
+    margin: 0 20px 50px 0;
+}
+
+.footer .container .title img {
+    padding: 40px 0px 20px 20px;
+    width: 100%;
+}
+
+.footer .container .contact_info p {
+    padding-left: 20px;
+}
+
+.footer .legal {
+    /* position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%); */
+    padding: 20px;
+    background: #333333;
+}
+
+.footer .legal p {
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.66);
+    text-align: center;
+}
+
+
+/* clearfix */
+
+.clearfix {
+    overflow: auto;
+}
+
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+
+/* place holder */
+
+::placeholder {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.33);
+    padding-left: 20px;
+}
